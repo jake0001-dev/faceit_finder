@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57c56928-ccb5-4c7d-ba27-3741d9c0ac7a" name="Changes" comment="added extra shit and an .env">
+    <list default="true" id="57c56928-ccb5-4c7d-ba27-3741d9c0ac7a" name="Changes" comment="Fixed the single warning">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/level_points.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670173614724</updated>
-      <workItem from="1670173616069" duration="13409000" />
+      <workItem from="1670173616069" duration="13769000" />
     </task>
     <task id="LOCAL-00001" summary="added extra shit and an .env">
       <created>1670197747888</created>
@@ -67,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670197747888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added extra shit and an .env">
+      <created>1670198669348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670198669348</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed the single warning">
+      <created>1670198693138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670198693138</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added extra shit and an .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="added extra shit and an .env" />
+    <MESSAGE value="Fixed the single warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the single warning" />
   </component>
 </project>

@@ -76,19 +76,23 @@ function lvl_to_image(level){
         return "<:10:1049074377389527090>"
     }
 }
-client.on('ready', () => {
+client.on('ready', async () => {
     console.log('Bot is ready!')
+
+
 
     const commands = client.application?.commands
 
-    commands?.create({
+    await commands.set([])
+    await commands?.create({
         name: 'faceit',
         description: 'Get faceit stats',
         options: [
             {
                 name: 'player',
                 description: 'Player name',
-                type: Constants.ApplicationCommandOptionTypes.STRING
+                type: Constants.ApplicationCommandOptionTypes.STRING,
+                required: true
             }]
     })
 })
