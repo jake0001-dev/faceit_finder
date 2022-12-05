@@ -123,7 +123,7 @@ client.on('interactionCreate', async interaction => {
                     let elo = data.games.csgo.faceit_elo
                     let level = data.games.csgo.skill_level
                     let rankup = rankup_check(elo, level)
-                    let avatar = data.avatar
+
 
                     const embed = new MessageEmbed()
                         .setColor('#0099ff')
