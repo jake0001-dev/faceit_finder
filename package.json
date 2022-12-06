@@ -13,6 +13,7 @@
     "chalk": "^5.1.2",
     "discord.js": "13.6",
     "dotenv": "^16.0.3",
-    "faceit-js": "^0.0.3"
+    "faceit-js": "^0.0.3",
+    "mysql": "^2.18.1"
   }
 }
